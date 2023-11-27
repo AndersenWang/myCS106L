@@ -1,14 +1,14 @@
 
 #include <iostream>
 #include "getInt.hpp"
+#include "myss.hpp"
 #include "str2Int.hpp"
 using namespace std;
 
 int main(int argc, char* argv[]) {
-    // string str;
-    // cin >> str;
-    // cout << stringToInteger(str) << endl;
-    int val = getInteger("$", "#");
-    cout << "val = " << val << endl;
+    cout << "a";
+    cout << "b";
+    // cout << flush;
+    while(1);
     return 0;
 }
