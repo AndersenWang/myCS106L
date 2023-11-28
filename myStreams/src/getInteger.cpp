@@ -16,8 +16,12 @@ int getInteger() {
         }
         
         // Actually, since we create a new stringstream each time,we can remove these lines.
+        
+        // This clears the state, restoring the state to good.
         // iss.clear();
+        // ★★★★★   Keep moving position until you reach a ‘\n’ or you run out of buffer room.
         // iss.ignore(numeric_limits<streamsize>::max(), '\n');
+        
     }
 }
 

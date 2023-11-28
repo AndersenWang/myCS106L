@@ -60,6 +60,8 @@
         "__tuple": "cpp",
         "ios": "cpp",
         "locale": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "fstream": "cpp",
+        "iomanip": "cpp"
     }
 }

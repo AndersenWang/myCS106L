@@ -3,7 +3,7 @@
 #include <sstream>   //stringstream
 using namespace std;
 
-void mystringstream() {
+void myStringStream() {
     /**
      * stringstream: Constructors with initial text in the buffer.
      * Can optionally provide “modes” such as ate (start at end) or bin (read as binary):
