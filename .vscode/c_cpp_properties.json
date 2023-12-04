@@ -3,7 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/myStreams/**"
+                "${workspaceFolder}/mySTL/**"
             ],
             "defines": [
                 "_DEBUG",

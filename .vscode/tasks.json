@@ -9,11 +9,11 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "${workspaceFolder}/myStreams/src/*.cpp",
+                "${workspaceFolder}/mySTL/src/*.cpp",
                 "-I",
-                "${workspaceFolder}/myStreams/include",
+                "${workspaceFolder}/mySTL/include",
                 "-o",
-                "${workspaceFolder}/myStreams/exec",
+                "${workspaceFolder}/mySTL/exec",
                 "-std=c++17"
             ],
             "options": {

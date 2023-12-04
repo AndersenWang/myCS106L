@@ -25,12 +25,13 @@ using namespace std;
 // }
 
 // ========== Be careful about dangling references: references to variables out of scope. ==========
-string& getRandomWord() {
-    string word = "CS106L";
-    return word;
-}
-int main(int argc, char* argv[]) {
-    string& randomword = getRandomWord();   // word was discarded after getRandomWord() func. called  ;  you should make the copy
-    cout << randomword << endl;
-    return 0;
-}
+// ========== code is buggy ==========
+// string& getRandomWord() {
+//     string word = "CS106L";
+//     return word;
+// }
+// int main(int argc, char* argv[]) {
+//     string& randomword = getRandomWord();   // word was discarded after getRandomWord() func. called  ;  you should make the copy
+//     cout << randomword << endl;
+//     return 0;
+// }

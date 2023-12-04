@@ -1,2 +1,3 @@
 
+void myManipulators();
 void mystringstream();
