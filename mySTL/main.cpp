@@ -4,6 +4,6 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-	myIterator2();
+	cout << getInput<int>("input:", "wrong input, again.") << endl;
 	return 0;
 }
